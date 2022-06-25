@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./test",
+		"module": "CommonJS",
+		"target": "esnext",
+		"lib": [
+			"esnext"
+		],
+		"strict": true,
+		"outDir": "./dist",
+		"jsx": "preserve",
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"noUnusedLocals": true,
+		"useDefineForClassFields": true,
+		"sourceMap": false,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"types": [
+			"node"
+		],
+		"skipLibCheck": true,
+		"strictNullChecks": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"exclude": [
+		"dist",
+		"questions",
+		"solutions",
+		"node_modules"
+	]
+}
